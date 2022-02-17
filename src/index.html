@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">    
+    <title>可爱的冰墩墩</title>
+</head>
+<body>
+    <style id="demo2"></style>
+    <div id="demo"></div>
+    <div id="buttons">
+        <button id="btnPause">暂停</button>
+        <button id="btnPlay">播放</button>
+        <button id="btnSlow">慢速</button>
+        <button id="btnNormal">中速</button>
+        <button id="btnFast">快速</button>
+    </div>
+    <style>
+        #buttons{
+            position: fixed;
+            z-index: 11;
+            right: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        #buttons>button{
+            margin-bottom: 10px;
+            padding: 4px 8px;
+        }
+        #demo{
+            position: fixed;
+            height: 50vh;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow-y: auto;
+        }
+        #demo::-webkit-scrollbar{
+            display: none;
+        }
+        #html{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50vh;
+        }
+        #demo2{
+            display: none;
+        }
+    </style>
+    <div id="html">
+        <div id="bingdundun">
+            <div class="body"></div>
+            <div class="earLeft"></div>
+            <div class="earRight"></div>
+            <div class="face"></div>
+            <div class="eyeLeft"></div>
+            <div class="eyeLeft eyeRight"></div>
+            <div class="nose"></div>
+            <dov class="mouth"></dov>
+            <div class="handLeft"></div>
+            <div class="handRight"></div>
+            <div class="footLeft"></div>
+            <div class="footLeft footRight"></div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
